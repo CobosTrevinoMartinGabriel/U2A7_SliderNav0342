@@ -46,7 +46,10 @@ class _CapcomState extends State<Capcom> {
     return Scaffold(
       backgroundColor: Color(0x610051ff),
       appBar: AppBar(
-        title: Text("Martin Gabriel Cobos Treviño/Slider Capcom"),
+        title: Text(
+          "Martin Gabriel Cobos Treviño/Slider Capcom",
+          textScaleFactor: 0.75,
+        ),
       ),
       body: Center(
           child: Column(
